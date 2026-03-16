@@ -25,8 +25,8 @@ from datetime import datetime
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(BASE_DIR)
 
-from src.predict import predict_news
-from src.predict_distilbert import predict_fake_news
+from predict import predict_news
+from predict_distilbert import predict_fake_news
 
 
 # ---------------------------------------------------------
